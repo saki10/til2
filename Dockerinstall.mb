@@ -1,12 +1,10 @@
 １、Dockerインストール
-
-DockerHubからダウンロードしてインストールします。
+DockerHubからダウンロードしてインストールする。
 https://hub.docker.com/editions/community/docker-ce-desktop-mac
 
 ２、nginxを起動する
 docker run -d -p 80:80 --name {コンテナ名} nginx
-
-実行すると、nginxを80番ポートで起動する。
+実行すると、nginxを80番ポートで起動される。
 
 止める場合...docker container stop {コンテナ名}
 もう一度起動する...$docker container start {コンテナ名}

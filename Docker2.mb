@@ -1,0 +1,29 @@
+前提条件
+Dockerがインストールされていること
+issues/#2ブランチへチェックアウトされていること
+
+環境構築手順
+1, cd /zasetsu_norikoe_app
+(リポジトリ直下へ移動)
+
+2, docker-compose build  ドッカーを立ち上げる
+
+3, docker-compose up -d
+
+4, docker ps -aでSTATUSがUpになっていることを確認
+
+5,docker ps -a
+CONTAINER ID   IMAGE                          COMMAND                  CREATED        STATUS                      PORTS                                                      NAMES
+containerID  zasetsu_norikoe_app_app        "bundle exec rails s…"   10 hours ago   Up 29 seconds               0.0.0.0:3000->3000/tcp                                     rails524
+containerID   mysql:5.7                      "docker-entrypoint.s…"   10 hours ago   Up 29 seconds               0.0.0.0:3306->3306/tcp, 33060/tcp                          mysql57
+
+6,docker exec -it rails524 /bin/bash
+(appコンテナに入る)
+
+7,コンテナ内で$ rails db:createを実行
+
+8,exit　コンテナから抜ける
+
+9,http://localhost:3000/へアクセス
+
+10,Yay! You’re on Rails!

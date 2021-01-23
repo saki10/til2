@@ -1,0 +1,22 @@
+Heroku CLI（旧heroku toolbalt）
+Herokuをコマンドで操作するためのツール
+
+・CLIをインストールする方法
+ターミナル上で、コマンドを実行する。
+
+brew install heroku
+
+アカウント認証
+toolbeltをインストールしたら、このコマンドを実行する
+
+１.heroku login
+2.Enter your Heroku credentials:
+3.Email:[メールアドレスを入力]
+4.Password:[パスワードを入力]
+
+ログインとメールアドレスが出れば、完了！
+
+Logged in as sample@gmail.com
+
+参考文献
+https://hajipro.com/heroku/heroku-cli-install

@@ -1,0 +1,14 @@
+gitの戻したい時に使うコマンドまとめ
+https://qiita.com/rch1223/items/9377446c3d010d91399b
+
+[Git]コミットの取り消し、打ち消し、上書き
+https://qiita.com/shuntaro_tamura/items/06281261d893acf049ed
+
+git rebase -iでgitのコミットをまとめる
+https://qiita.com/tatetate55/items/7a822a3246df79d693b8#comment-bf5839cdafba13a109d4
+
+gitコマンドの基本的な使い方
+https://qiita.com/wwacky/items/2f110ee76fc1cb681c3b
+
+Gitを差し戻すときに使用するコマンド　
+git revert HEAD 

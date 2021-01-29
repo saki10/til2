@@ -1,0 +1,21 @@
+rbenvでrubyのバージョンが更新できなかった時の対処の仕方
+
+rubyのバージョンが切り替わらない時の最終確認
+https://qiita.com/o-mis/items/8d2dcd1c0cc4c14c04b9
+
+
+rbenvでrubyのバージョンが切り替わらない
+https://qiita.com/sikeda107/items/2e08286aca95039cee4c 
+
+
+rbenv init 
+
+source ~/.zshrc  
+
+eval "$(rbenv init -)"
+source ~/.zshrc
+
+rbenv init
+vim ~/.zshrc 
+
+これらのコマンドを使用する。
